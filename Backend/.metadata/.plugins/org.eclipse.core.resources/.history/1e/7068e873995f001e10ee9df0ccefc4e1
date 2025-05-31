@@ -1,0 +1,26 @@
+ class Start
+ {
+	 string name;
+	 int age;
+	 public void getInfo()
+	 {
+		 System.out.println("tne name of this student" + this.name);
+		 System.out.println("tne name of this student" + this.age);
+	 }
+ }
+ public class Start
+ {
+	 public static void main(String args[])
+	 {
+		 Start s1 = new Start();
+		 s1.name = "shubham";
+		 s1.age = 21 ;
+		 s1.getInfo();
+		 
+		 Start s2 = new Start();
+		 s2.name = "Aditya";
+		 s2.age = 21 ;
+		 s2.getInfo();
+				 
+	 }
+ }
